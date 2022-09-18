@@ -1,0 +1,42 @@
+﻿<!--"para crear una base de pagina web colocar ! "-->
+
+<!DOCTYPE html> (version de html)(no cierra)
+
+<html> (etiqueta de apertura)
+<head>
+(links, ruta del archivo que voy a utilizar)
+	<title> </title>(titulo de la pestaña)
+	<link rel="icon" href="favicon.png/ico/jpg">
+	<> (meta UTF-8)
+
+
+</head>
+<body>
+(elementos a visualizar en la web)
+	<h1> </h1>(titulo de nuestro documento)
+	<p> </p> (parrafo de nuestro documento)
+
+	<!--imagenes-->
+	<img src=""> (etiquetas para imagen. no cierra)(titulo de la imagen y su extension)
+	<img src= "../example"> (para ir atras en una carpeta hay que colocar)
+	
+	<!--vinculos o anchors-->
+	<a><p>  </p></a> (<a></a> = es la sintaxis basica para crear un enlace)
+
+	<!--atributo href-->
+	<a href= "https://www.google.com.ar/">Google<a/> (Asi vamos a un sitio web externo)
+	<a href= "pagina2.html">Pagina 2</a> (Asi vamos a otro documento dentro de la misma carpeta)
+
+	<!--atributo target-->
+	<a href="pagina2.html" target="_self">Página 2</a>(_self= los vinculos se van a abrir dentro de la misma pagina)
+	<a href="https://www.google.com.ar/" target="_blank">Google</a>(_blank= los vinculos se abren en una nueva pagina)
+	
+	<!--video de youtube-->
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/s96wdkqH5nE" title="YouTube video player" 	frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 	allowfullscreen></iframe>
+
+</body>
+</html> (etiqueta de cierre)
+
+ESTRUCTURA BASICA DEL HTML
+
+"index es la primer pagina"
